@@ -1810,9 +1810,14 @@ box-shadow: rgba(149, 157, 165, 0.2) 0px 5px 5px;
       display: inline;
     }
    }
-    @media screen and (max-width: 200px) {
+    @media screen and (max-width: 600px) {
       body{
 overflow-x: hidden;
+      }
+    .gg img{
+display: flex;
+justify-content: center;
+       
       }
       .nav-item{
         height: 10px;
@@ -1875,9 +1880,10 @@ overflow-x: hidden;
             max-width: 100%; 
             text-align: center;
           } 
-            .gg div{
-              display: inline;
-            }
+          .gg div{
+            display: inline;
+          }
+          
             .gmap_canvas{
               max-width: 100%;
          
