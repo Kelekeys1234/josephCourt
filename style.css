@@ -1810,7 +1810,7 @@ box-shadow: rgba(149, 157, 165, 0.2) 0px 5px 5px;
       display: inline;
     }
    }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 200px) {
       body{
 overflow-x: hidden;
       }
